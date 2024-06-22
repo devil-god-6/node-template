@@ -1,0 +1,5 @@
+node_modules
+logs
+.env
+public/js/application.js
+public/js/application.min.js

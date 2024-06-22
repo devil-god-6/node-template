@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en" class="light-style layout-navbar-fixed layout-menu-fixed layout-compact" dir="ltr"
+    data-theme="theme-default" data-assets-path="../../assets/" data-template="vertical-menu-template-starter">
+
+<head>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/assets/img/favicon/favicon.ico" />
+    {{{_sections.styles}}}
+
+    <script src="/assets/vendor/libs/jquery/jquery.js"></script>
+</head>
+
+<body>
+    {{> common/topbar}}
+
+    {{{body}}}
+
+    {{> common/footer}}
+
+    
+    {{{_sections.script}}}
+
+
+    <script src="/js/common/functions.js"></script>
+
+    <!-- Page JS -->
+    <script src="/js/application.js"></script>
+
+</body>
+
+</html>
